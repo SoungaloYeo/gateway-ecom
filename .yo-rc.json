@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "GatewayEcom",
+    "packageName": "app.shop",
+    "packageFolder": "app/shop",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ZDA4NmVhMTVmMjQxOTE1ZjdmNDA0NDE2MzYwYjk0M2RlODUyODJlMjgwNjRhNDAxMzYyYjBiMzFmNjMzZWVkNWMxYjRmMTA1ZjkyMGMwNTI2NGM0MmQ0MjM0YTAzYmU5YWQ5YWM1M2YyMjZkZWIyYWMyMGJkYTdkYjAzMmNmYzI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "SoungaloYeo",
+  "repository-name": "gateway-ecom"
+}
